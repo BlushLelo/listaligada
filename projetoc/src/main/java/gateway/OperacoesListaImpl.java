@@ -1,3 +1,8 @@
+package gateway;
+
+import Domain.Celula;
+import Domain.ListaLigada;
+
 public class OperacoesListaImpl implements OperacoesLista {
     @Override
     public void adiciona(ListaLigada listaLigada, Object elemento) {

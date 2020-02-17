@@ -1,3 +1,8 @@
+package gateway;
+
+import Domain.Celula;
+import Domain.ListaLigada;
+
 public interface OperacoesLista {
 
     void adiciona(ListaLigada listaLigada, Object elemento);
